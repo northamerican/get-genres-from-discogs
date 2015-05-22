@@ -1,5 +1,5 @@
 # Get genres from discogs
-JS (JXA) script that fetches genres for iTunes tracks using discogs.com.
+JS (JXA) script that fetches genres for iTunes tracks using discogs.com.   
 Runs on recent versions of OS X.
 
 ##Usage
