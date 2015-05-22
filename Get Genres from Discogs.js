@@ -174,14 +174,14 @@ var applyGenres = function() {
     try {
         history = app.doShellScript('cat ' + prefs.history);
     } catch(e) {
-        throw "couldn't fetch history";
+        // throw "couldn't fetch history";
         history = {};
     }
 
     try {
         history = JSON.parse(history.replace(/`/g, "'"));
     } catch(e) {
-        throw "couldn't parse history";
+        // throw "couldn't parse history";
         history = {};
     }
 
@@ -242,7 +242,7 @@ var applyGenres = function() {
 
         if(genres.length && isMatch) {
             output.log[0].push(albumTitle + '\n' + 'from: ' + artists + ' - ' + title + '\n' + genres + '\n');
-        } else if (genres.length && !isMatch) { //"!isMatch" redundnat
+        } else if (genres.length && !isMatch) { //"!isMatch" redundant
             output.log[1].push(albumTitle + '\n' + 'did not match: ' + artists + ' - ' + title + '\n');
         } else {
             output.log[1].push(albumTitle + '\n');
@@ -312,8 +312,6 @@ Progress.description = 'Processing albums...';
 
 // If album artist fails, try with artist (Caustic Window / Aphex Twin)
 // Some album have style only inside /release page (like Witch - Introduction)
-
-// diffquotient should check artist. also that bug album
 
 // Diffquotient must be improved. ex:
 // The Bug - Can't Take This No More
