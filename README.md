@@ -14,3 +14,6 @@ It is written in JXA, essentially Javascript for mac apps - made to function as 
 For info on this check out:   
 Apple's [Javascript for Automation Notes](https://developer.apple.com/library/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/)   
 dtinths's [JXA Cookbook](https://github.com/dtinth/JXA-Cookbook)
+
+
+Consult the comments in the .js file for features that are intended to be implemented.
