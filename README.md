@@ -4,7 +4,7 @@ Runs on recent versions of OS X.
 
 ##Usage
 -In iTunes, select the tracks you wish to tag   
--Run the .scpt file from Script Editor or compile it as an .app
+-Run the .scpt file from Script Editor or compile it as an .app (supplied in the .zip)
 
 A log will be created on your desktop with the results.
 
