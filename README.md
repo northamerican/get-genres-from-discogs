@@ -4,13 +4,14 @@ Runs on recent versions of OS X.
 
 ## Usage
 - In iTunes, select the tracks you wish to tag
-- Run the .scpt file from Script Editor or use the compiled .app
+- Run the `.scpt` file from Script Editor or use an applet `.app` exported from Script Editor
+- Place the exported `.app` in  `~/Library/iTunes/Scripts` to run it from iTunes' menu bar.
 
 A log will be created on your desktop with the results.
 
 ## About
 This is still 'beta' and refinements need to be made regarding accuracy, handling of compilations, etc...
-It is written in JXA, essentially Javascript for mac apps - made to function as an alternative to AppleScript.  
+It is written in JXA, essentially Javascript for Mac apps - made to function as an alternative to AppleScript.  
 For info on this check out:  
 - Apple's [Javascript for Automation Notes](https://developer.apple.com/library/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/)
 - dtinths's [JXA Cookbook](https://github.com/dtinth/JXA-Cookbook)
