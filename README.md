@@ -12,8 +12,8 @@ A log will be created on your desktop with the results.
 This is still 'beta' and refinements need to be made regarding accuracy, handling of compilations, etc...
 It is written in JXA, essentially Javascript for mac apps - made to function as an alternative to AppleScript.  
 For info on this check out:  
-Apple's [Javascript for Automation Notes](https://developer.apple.com/library/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/)
-dtinths's [JXA Cookbook](https://github.com/dtinth/JXA-Cookbook)
+- Apple's [Javascript for Automation Notes](https://developer.apple.com/library/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/)
+- dtinths's [JXA Cookbook](https://github.com/dtinth/JXA-Cookbook)
 
 ## To do
 
