@@ -1,10 +1,10 @@
-JsOsaDAS1.001.00bplist00ÑVscript_'Dvar iTunes = Application('iTunes');
+JsOsaDAS1.001.00bplist00ÑVscript_$var iTunes = Application('iTunes');
 var app = Application.currentApplication();
 
 iTunes.includeStandardAdditions = true;
 app.includeStandardAdditions = true;
 
-var version = '0.2015.05 beta';
+var version = '0.2017.06 beta';
 var prefs = {
     // // Option to get all genres and styles
     // multiGenre: true,
@@ -37,7 +37,7 @@ var output = {
     ]
 };
 
-var curl = 'curl -H "User-Agent: Chrome/40" ';
+var curl = 'curl -L -H "User-Agent: Chrome/40" ';
 var searchURL = 'http://www.discogs.com/search/?q=';
 var discogsAPIURL = 'https://api.discogs.com';
 var songs = iTunes.selection();
@@ -304,32 +304,4 @@ function diffQuotient(a, b) {
 applyGenres();
 
 Progress.description = 'Processing albums...';
-
-
-// To do
-
-// Handle compilations: multiple artists or compilation bool means exclude artist from search
-
-// If album artist fails, try with artist (Caustic Window / Aphex Twin)
-// Some album have style only inside /release page (like Witch - Introduction)
-
-// Diffquotient must be improved. ex:
-// The Bug - Can't Take This No More
-// did not match: Bug, The - Can't Take This No More / Rise Up
-
-// Won't work with two albums with same name
-
-
-// Bonus
-
-// Create playlists for each genre
-// Option to add other albums by same artist in genre-specific playlist
-// Check for updates on compluter.com
-
-// fallback to wikipedia
-// fallback to last.fm
-// fallback to bandcamp, what.cd, ... and compare with genre list on discog's wiki,
-// using discog's formatting/wording (for consistency)
-
-// Get record label
-                              'Zjscr  úÞÞ­
+                              $4jscr  úÞÞ­
